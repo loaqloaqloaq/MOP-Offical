@@ -1,0 +1,46 @@
+{
+  "aboutBtn":"關於 MOP",
+  "moreBtn":"了解更多",
+  "What is Mic On Project": "Mic On Project 是什麼？",
+  "Vtuber":"VTuber",
+  "About Us":"關於我們",
+  "Schedule":"日程表",
+  "Coming Soon":"即將開始",
+  "Archive":"補檔 / 影片",
+  "NewVideo":"最新影片",
+  "Streaming":"直播中",
+  "News":"最新消息",
+  "Slogan":"遊走虛實之間\n携手探索無限\n來自香港的Vtuber社團\n與你創造更多奇跡！",
+  "subSlogan":"Crossing the border\nBetween virtual and reality\nWitness with us\nThe splendours of Hong Kong VTuber",
+  "aboutMOP":"我們把名稱定義為Mic On Project，以及將Logo的形狀定為麥克風的原因，是因為我們希望透過「開咪」作虛擬直播的形式，為大眾增添多一份的娛樂、促進本地的宅文化活動，以及為這個城市和世界帶來一點歡樂色彩。\n\n而我們選擇的寶石藍Logo，除了是因為那最深最亮的藍色能代表冷靜和智慧之外，同時也象徵著我們團內的信念，以及決心。",
+  "aisu":{
+    "name":"小林あいす",
+    "text":"小林あいす是來自冰之國的17歲良好女子高中生，當初因冰之國的氣候危機而誤成為了VTuber。除了廣東話以外，也會說日語和普通話。\n小林あいす的小伙伴名稱為雪米糍。\n現時主要的活動為唱歌、雜談、遊戲，以及各種不同題材的企劃直播及短片。",
+    "tag":["17歲賢良淑德女子高中生","清楚系VTuber","唔講粗口"],
+    "fanName":"雪米糍"    
+  },
+  "shizu":{
+    "name":"暁月シズ",
+    "text":"暁月シズ是來自於曉月星的混血歌姬公主，當初因曉之國和月之國的戰亂巧遇上咒術師，而選擇了跟隨咒術師的指示來到地球當VTuber。\n暁月シズ的狼狗伙伴名稱為彗星。\n現時主要的活動為唱歌、雜談、日本旅遊，以及遊戲主題。",
+    "tag":["曉月星混血歌姬公主","建議純潔","OK"],
+    "fanName":"月光族"
+  },
+  "About Us Text":[
+    {
+      "title":"Mic On Project是什麼？",
+      "text":"Mic On Project 是一個於 2020 年 8 月 2 日成立的首個香港 VTuber 社團。\n我們主張讓旗下 VTuber以「貼地」的方式進行直播，並與粉絲輕鬆的探討本地宅文化議題及活動。\n\n而我們的工作除了處理旗下 VTuber 的日常事務及為他們提供各種支援外，\n我們更會著重於音樂元素，以提升 VTuber 的歌唱力及製作更多的原創和 Cover音樂作品，\n務求讓 Mic On Project 的節目聽感更佳。"      
+    },
+    {
+      "title":"Mic On Project 的名稱 & Logo 由來",
+      "text":"我們把名稱定義為 Mic On Project ，以及將 Logo 的形狀定為麥克風的原因，\n是因為我們希望透過「開咪」作虛擬直播的形式，為大眾增添多一份的娛樂、促進本地的宅文化活動，\n以及為這個城市和世界帶來一點歡樂色彩。\n\n而我們的 Logo 則選擇薄花櫻藍與淺紫為色調主題。薄花櫻藍除了能代表冷靜和智慧之外，\n同時也象徵著我們團內百折不撓的信念；而與淺紫的混色，則寓意我們穩中求變，創出潮流的決心。"
+    }
+  ],
+  "mop":{
+    "dc":"Mic On Project 官方 Server",
+    "twt":"@miconproject",
+    "yt":"Mic On Project【Official】",
+    "fb":"Mic On Project"
+  },
+  "loading":"載入中..."
+  
+}

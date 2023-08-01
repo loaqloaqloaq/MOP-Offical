@@ -1,0 +1,287 @@
+@font-face {
+  font-family: 'Genjyulp';  
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('~/assets/fonts/GenJyuuGothicL-P-ExtraLight.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Genjyulp';  
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('~/assets/fonts/GenJyuuGothicL-P-Light.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Genjyulp';  
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('~/assets/fonts/GenJyuuGothicL-P-Normal.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Genjyulp';  
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('~/assets/fonts/GenJyuuGothicL-P-Medium.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Genjyulp';  
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~/assets/fonts/GenJyuuGothicL-P-Bold.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Genjyulp';  
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('~/assets/fonts/GenJyuuGothicL-P-Heavy.ttf') format("truetype");
+}
+
+
+html *{
+  font-family:'Genjyulp';  
+  letter-spacing:0.3rem;
+}
+
+h1{
+  font-weight: 600;   
+}
+
+@mixin font-size($fs-map,$offset) {
+  @each $fs-breakpoint, $fs-font-size in $fs-map {
+    @if $fs-breakpoint == null {
+      font-size: $fs-font-size;
+    }
+    @else {
+      @media screen and (min-height: $fs-breakpoint) {
+        font-size: calc($fs-font-size - $offset);
+      }
+    }
+  }
+}
+
+@mixin mobile-font-size($fs-map,$offset) {
+  @each $fs-breakpoint, $fs-font-size in $fs-map {
+    @if $fs-breakpoint == null {
+      font-size: $fs-font-size;
+    }
+    @else {
+      @media screen and (min-width: $fs-breakpoint) {
+        font-size: calc($fs-font-size - $offset);
+      }
+    }
+  }
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+$mobile-slogan-font-sizes: (
+  null : 20px,        
+  880px : 40px,  
+); 
+
+$slogan-font-sizes: (
+  null : 20px,        
+  880px : 25px, 
+); 
+
+$subSlogan-font-sizes: (
+  null  : 12px,
+  875px : 14px,        
+  945px : 16px, 
+); 
+
+$subTitle-font-sizes: (
+  null : 12px, 
+  875px:  12px,   
+  945px : 12px, 
+); 
+
+$title-font-sizes: (
+  null : 18px, 
+  875px:  24px,        
+  945px : 48px, 
+);
+
+$vName-font-sizes: (
+  null : 24px, 
+  875px:  28px,        
+  945px : 32px, 
+);
+$vTitle-font-sizes: (
+  null : 18px, 
+  875px:  20px,        
+  945px : 24px, 
+);
+
+$font-sizes: (
+  null : 14px, 
+  875px:  16px,    
+  945px : 18px, 
+); 
+
+$m-font-sizes: (
+  null : 12px, 
+  875px:  14px,    
+  945px : 16px, 
+); 
+$m-tag-font-sizes:(
+  null : 10px, 
+  875px:  12px,    
+  945px : 14px, 
+);
+
+$mobile-about-font-sizes: (
+  null : 20px, 
+  875px:  22px,    
+  945px : 24px, 
+); 
+
+$about-font-sizes: (
+  null : 14px, 
+  875px:  18px,    
+  945px : 20px, 
+); 
+
+
+@mixin padding($fs-map) {
+  @each $fs-breakpoint, $fs-padding in $fs-map {
+    @if $fs-breakpoint == null {
+      font-size: $fs-padding;
+    }
+    @else {
+      @media screen and (min-height: $fs-breakpoint) {
+        padding: $fs-padding;
+      }
+    }
+  }
+}
+
+$btn-padding:(
+  null :  6px 32px, 
+  500px:  8px 40px,   
+  850px : 10px 50px,
+);
+
+
+
+$MOP-LogoC-100: rgba(90, 121, 186, 1); /* MOP-LogoC-1 at 100% opacity */
+$MOP-LogoC-75: rgba(90, 121, 186, 0.75); /* MOP-LogoC-1 at 75% opacity */
+$MOP-LogoC-50: rgba(90, 121, 186, 0.5); /* MOP-LogoC-1 at 50% opacity */
+$MOP-LogoC-0: rgba(90, 121, 186, 0); /* MOP-LogoC-1 at 50% opacity */
+
+$MOP-Logo2-100: rgba(200, 164, 224, 1); /* MOP-LogoC-2 New at 100% opacity */
+$MOP-Logo2-75: rgba(200, 164, 224, 0.75); /* MOP-LogoC-2 New at 75% opacity */
+$MOP-Logo2-50: rgba(200, 164, 224, 0.5); /* MOP-LogoC-2 New at 50% opacity */
+$MOP-Logo2-0: rgba(200, 164, 224, 0); /* MOP-LogoC-2 New at 50% opacity */
+
+$AISU-Dark-100: rgba(90, 121, 186, 1); /* 小林あいす-Dark at 100% opacity */
+$AISU-Dark-75: rgba(90, 121, 186, 0.75); /* 小林あいす-Dark at 75% opacity */
+$AISU-Dark-50: rgba(90, 121, 186, 0.5); /* 小林あいす-Dark at 50% opacity */
+
+$AISU-Light-100: rgba(193, 231, 255, 1); /* 小林あいす-Light at 100% opacity */
+$AISU-Light-75: rgba(193, 231, 255, 0.75); /* 小林あいす-Light at 100% opacity */
+$AISU-Light-50: rgba(193, 231, 255, 0.5); /* 小林あいす-Light at 100% opacity */
+
+
+$SHIZU-Dark-100: rgba(255, 225, 77, 1); /* Shizu-Dark at 100% opacity */
+$SHIZU-Dark-75: rgba(255, 225, 77, 0.75); /* Shizu-Dark at 75% opacity */
+$SHIZU-Dark-50: rgba(255, 225, 77, 0.5); /* Shizu-Dark at 50% opacity */
+
+$SHIZU-Light-100: rgba(255, 251, 185, 1); /* Shizu-Light at 100% opacity */
+$SHIZU-Light-75: rgba(255, 251, 185, 0.75); /* Shizu-Light at 100% opacity */
+$SHIZU-Light-50: rgba(255, 251, 185, 0.5); /* Shizu-Light at 100% opacity */
+
+$NAO-Dark-100: rgba(239, 165, 175, 1); /* Nao-Dark at 100% opacity */
+$NAO-Dark-75: rgba(239, 165, 175, 0.75); /* Nao-Dark at 75% opacity */
+$NAO-Dark-50: rgba(239, 165, 175, 0.5); /* Nao-Dark at 50% opacity */
+
+$NAO-Light-100: rgba(247, 212, 217, 1); /* Nao-Light at 100% opacity */
+$NAO-Light-75: rgba(247, 212, 217, 0.75); /* Nao-Light at 100% opacity */
+$NAO-Light-50: rgba(247, 212, 217, 0.5); /* Nao-Light at 100% opacity */
+
+$themeBlack: rgba(34, 34, 34, 1); /* Theme Black at 100% opacity */
+
+
+
+@keyframes rotation {
+  0% {
+    transform: rotate(-15deg);      
+  }
+  50% {
+    transform: rotate(15deg);      
+  }
+  100%{
+    transform: rotate(-15deg);      
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }      
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes charafadein {
+  0% {
+    transform: translateX(-20px) translateY(-20px);
+    opacity: 0;
+  }      
+  100%{
+    transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+} 
+@keyframes slide-in {
+  0% {
+    transform: translateX(-20px) translateY(-20px);
+    opacity: 0;
+  }      
+  100%{
+    transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+} 
+
+.fade{   
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-20px) translateX(-20px);
+  transition: 0.2s;    
+  &.delay1{
+    animation-delay: 0.2s;
+  }
+  &.delay2{
+    animation-delay: 0.4s;
+  }
+  &.delay3{
+    animation-delay: 0.6s;
+  }
+  &.delay4{
+    animation-delay: 0.8s;
+  }
+}
+.active{
+  visibility:visible;
+  animation: slide-in 1s normal forwards ease-in-out;
+}
+
+.en{
+  letter-spacing: 0 !important;
+  *{
+    letter-spacing: 0 !important;
+  }
+} 
+

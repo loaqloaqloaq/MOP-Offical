@@ -1,0 +1,45 @@
+{
+  "aboutBtn":"About MOP",
+  "moreBtn":"Know More",
+  "What is Mic On Project": "What is Mic On Project ?",
+  "Vtuber":"VTuber",
+  "About Us":"About Us",
+  "Schedule":"Schedule",
+  "Coming Soon":"Coming Soon",
+  "Archive":"Archive / Video",
+  "NewVideo":"New Video",
+  "Streaming":"Streaming",
+  "News":"News",
+  "Slogan":"遊走虛實之間\n携手探索無限\n來自香港的Vtuber社團\n與你創造更多奇跡！",
+  "subSlogan":"Crossing the border\nBetween virtual and reality\nWitness with us\nThe splendours of Hong Kong VTuber",
+  "aboutMOP":"We call ourselves Mic On Project and choose the mic figure as our resemblance, as we opt to provide entertainment to the public and bring upon a shard of happiness and innovation to others via “mic-on”, which is live streaming in virtual form.\n\n Pearl blue has been chosen as the colour theme of our logo to remind ourselves to be resilient, wise and keep determined in creating original content to our audience.",
+  "aisu":{
+    "name":"Aisu Kobayashi",
+    "text":"Kobayashi Aisu is a 17-years old high school student from the land of Ice. She has become a VTuber in order to solve the climate crisis in her hometown. Besides Cantonese, she also excels in speaking Japanese and Putonghua (Chinese).\nHer companion is called Yumiki-chan. \nStream topics: Karaoke, Talk, Gaming, ASMR",
+    "tag":["17-years-old virtuous high school girl","SEISO VTuber","NoSwearing"],
+    "fanName":"Ice mochi"    
+  },
+  "shizu":{
+    "name":"Akatsuki Shizu",
+    "text":"She is a half-breed songstress from the planet Hiroshi. She meets a spell caster during the war between the two countries,  Hiroshi and Tsuki no Kuni, and chooses to follow the spell caster's instructions to become a VTuber on Earth to change her fate. The name of his wolfhound companion is Comet.\nStream topics: Karaoke, Talk, Japanese culture discussion, Gaming",
+    "tag":["Hybrid singer princess","BePure","OK"],
+    "fanName":"Moon Knight"
+  } ,
+  "About Us Text":[
+    {
+      "title":"Mic On Project - About us",
+      "text":"Mic On Project is the first Hong Kong VTuber community launched in August 2020. Our mission is to keep our VTubers \"down-to-earth\" and to discuss local geek culture issues and events with our fans in a relaxed manner.\n\nApart from handling the day-to-day affairs of our VTubers with holistic assistance, we have always been focusing on the musical element and continuously enhance the vocal talent of our vtubers to produce more original songs and cover music, making Mic On Project's programmes euphonious."      
+    },
+    {
+      "title":"Name and logo of Mic On Project",
+      "text":"We named our community Mic On Project and shaped the logo into a microphone because we wanted to bring more entertainment to the public, promote local geek culture, and to bring a slice of happiness to the city and worldwide through the virtual broadcast by \" mic-on\".\n\nThe colour theme of our logo is in cherry blue and light purple, which is a symbol of calmness and wisdom, as well as a symbol of our indefatigable belief in the group that we would lead our trend to a wider spectrum of public through our ingenuity."
+    }
+  ],
+  "mop":{
+    "dc":"Mic On Project Official Server",
+    "twt":"@miconproject",
+    "yt":"Mic On Project【Official】",
+    "fb":"Mic On Project"
+  },
+  "loading":"Loading..."
+}

@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:  
+  official:
+    container_name: official
+    build: ./        
+    ports:
+      - 8005:3000         
+    working_dir: /usr/src/app
+    entrypoint: "pnpm start"
+    networks:
+      - shared   
+networks:
+  shared:
+    external: true

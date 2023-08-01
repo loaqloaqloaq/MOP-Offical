@@ -1,0 +1,16 @@
+
+<svg viewBox="0 0 32 32" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<style>
+  .st{
+    stroke:#000;
+    stroke-width:3px;
+  }
+</style>
+</defs>
+ <g>
+  <title>Layer 1</title>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" class="st" id="svg_1" y2="18.37795" x2="30.25197" y1="18.37795" x1="1.35433" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" class="st" id="svg_2" y2="7.51181" x2="21" y1="17.78047" x1="29.05" fill="none"/>
+ </g>
+</svg>
