@@ -4,6 +4,7 @@
 - NuxtJS 3 というフレームワークを使用しました。
 - 開発言語はTypeScript
 - URL：[https://miconproject.com/](https://miconproject.com/)
+- 英語と中国語しかありません。
 
 ## 独自に実装した要素・PR ポイント：
 - 横スクロールのサイトは初めて挑戦しました。
