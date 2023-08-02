@@ -1,7 +1,7 @@
 # Mic On Project　公式サイト
 - 開発者：張 皓嵐
 - 香港VtuberサークルMic On Projectの依頼をうけ、開発したものです。
-- NuxtJS 3.0 というフレームワークを使用しました。
+- NuxtJS 3 というフレームワークを使用しました。
 - 開発言語はTypeScript
 - URL：[https://miconproject.com/](https://miconproject.com/)
 
