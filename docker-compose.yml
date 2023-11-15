@@ -1,5 +1,4 @@
 version: '3.7'
-
 services:  
   official:
     container_name: official
@@ -10,6 +9,7 @@ services:
     entrypoint: "pnpm start"
     networks:
       - shared   
+    restart: always
 networks:
   shared:
     external: true
